@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe-digital</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<style>
+    
+    .nav-link:hover {
+        color: #157347 !important; 
+        transition: color 0.3s ease;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+        color: #157347 !important; 
+        padding-left: 1.5rem; 
+        transition: all 0.3s ease;
+    }
+</style>
+  <style>
+
+    
+    /* Estilos de Navegación */
+    .nav-link {
+        color: #444 !important;
+        transition: 0.2s;
+        font-weight: 600;
+    }
+    .nav-link:hover {
+        color: #157347 !important; 
+    }
+    .nav-link.active {
+        color: #157347 !important; 
+    }
+
+    
+     .hero-cafe-digital {
+        background-image: linear-gradient(rgba(21, 115, 71, 0.7), rgba(0, 0, 0, 0.6)),
+
+            url('img/ITLA.jpg'); 
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        color: white;
+    }
+
+    /* Utilidades de color e identidad */
+    .texto-verde {
+        color: #157347 !important;
+    }
+    .linea-verde {
+        border-left: 5px solid #157347;
+        padding-left: 15px;
+    }
+    
+    /* Ajuste para los iconos de redes sociales en el footer */
+    .social-icon {
+        color: #157347;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 1.2rem;
+    }
+  </style>
+</head>
+
+
+<body>
+
+<header class="shadow-sm">
+    <div class="container-fluid py-2" style="background-color: #157347;">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="inicio-itla.html" class="navbar-brand">
+                <img src="img/logo-itla-blanco.webp" alt="ITLA" style="height: 50px; width: auto;">
+            </a>
+
+            <div class="d-flex align-items-center">
+                <form class="d-flex align-items-center position-relative me-3" style="max-width: 250px;">
+                    <input class="form-control rounded-pill pe-5" type="search" placeholder="¿Qué quieres buscar?" style="font-size: 0.85rem; height: 35px; border: none;">
+                    <button class="btn btn-danger rounded-circle position-absolute end-0 me-1 d-flex align-items-center justify-content-center" type="submit" style="width: 28px; height: 28px; padding: 0;">
+                        <i class="bi bi-search" style="font-size: 0.75rem;"></i>
+                    </button>
+                </form>
+                <a href="#" class="text-white mx-2"><i class="bi bi-grid-3x3-gap-fill fs-5"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-globe fs-5"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="inicio-itla.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 active" href="#" id="navbarSobre" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre ITLA
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm">
+                            <li><a class="dropdown-item fw-bold texto-verde" href="quienes-somos.html">Quiénes somos</a></li>
+                            <li><a class="dropdown-item" href="#">Historia</a></li>
+                            <li><a class="dropdown-item" href="#">Rectoría</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="inicio-itla.html">Inicio</a>
+</li>
+
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Oferta Académica</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Admisiones</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Becas</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Estudiantes</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Docentes</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Alumni</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Transparencia</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Actualidad</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="hero-cafe-digital">
+    <div class="container text-center text-md-start">
+        <h1 class="display-4 fw-bold">Cafe Digital</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center justify-content-md-start">
+                <li class="breadcrumb-item"><a href="inicio-itla.html" class="text-white text-decoration-none">Inicio</a></li>
+                <li class="breadcrumb-item active text-white opacity-75" aria-current="page">Cafe Digital</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<section class="cafe-digital-section py-5" style="background-color: #f4f7f6;">
+    <div class="container-fluid px-lg-5">
+        
+        <div class="row g-4">
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="sticky-top" style="top: 100px;">
+                    <div class="list-group shadow-sm rounded-4 overflow-hidden border-0">
+                        <div class="list-group-item border-0 p-3 text-white" style="background-color: #157347;">
+                            <small class="fw-bold">CAFÉ DIGITAL</small>
+                        </div>
+                        <a href="#" class="list-group-item list-group-item-action border-0 small">Iniciativa</a>
+                        <a href="#" class="list-group-item list-group-item-action border-0 small">Resultados</a>
+                        <a href="#" class="list-group-item list-group-item-action border-0 small">Nueva Etapa</a>
+                        <a href="#" class="list-group-item list-group-item-action border-0 small text-danger">Buzón de Ideas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="bg-white p-5 rounded-4 shadow-sm border-top border-5" style="border-top-color: #157347 !important;">
+                    
+                    <h2 class="fw-bold mb-4" style="color: #157347;">Un Café con el Rector</h2>
+                    
+                    <div class="content-body text-secondary" style="line-height: 1.8; text-align: justify;">
+                        <p>Como una iniciativa de mejora institucional, el rector del ITLA, <strong>Rafael Feliz García</strong>, dio inicio al ciclo de encuentros titulado <strong>“Un Café con el Rector”</strong>.</p>
+                        
+                        <p>Este espacio fue diseñado con el propósito de escuchar de manera directa las inquietudes, sugerencias y necesidades de la comunidad estudiantil, fomentando un diálogo abierto y participativo que contribuya al fortalecimiento de la excelencia académica y los servicios institucionales.</p>
+
+                        <h5 class="fw-bold mt-5 mb-3" style="color: #157347;">Resultados de la Iniciativa</h5>
+                        <p>Durante esta primera etapa, se realizaron <strong>15 encuentros</strong> con estudiantes de las diferentes carreras ofrecidas por el ITLA. Estas sesiones fueron clave para reconocer las fortalezas de la institución, así como para identificar oportunidades de mejora en infraestructura, procesos administrativos y bienestar estudiantil.</p>
+
+                        <h5 class="fw-bold mt-5 mb-3" style="color: #157347;">Continuidad y Ampliación: Café Digital ITLA</h5>
+                        <p>Debido al éxito de esta primera fase y al compromiso de mantener un canal de comunicación permanente, se ha decidido dar continuidad a la iniciativa con una nueva etapa que busca ampliar su alcance y democratizar la participación de todos los estudiantes a través de herramientas tecnológicas.</p>
+
+                        <div class="alert p-4 rounded-4 mt-4" style="background-color: rgba(21, 115, 71, 0.05); border-left: 5px solid #157347;">
+                            <p class="mb-0 small italic">"Esta nueva fase permitirá que cualquier estudiante, sin importar su recinto, pueda presentar propuestas innovadoras directamente a la rectoría."</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 p-4 rounded-4 text-white shadow-lg animate-hover" style="background: linear-gradient(135deg, #157347 0%, #0d4d2f 100%);">
+                        <h4 class="mb-4"><i class="bi bi-chat-right-quote me-2"></i>Buzón de Propuestas</h4>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label small">Correo Institucional</label>
+                                <input type="email" class="form-control glass-input" placeholder="estudiante@itla.edu.do">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label small">Título de la Idea</label>
+                                <input type="text" class="form-control glass-input">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small">Problemática y Propuesta Detallada</label>
+                                <textarea class="form-control glass-input" rows="4" placeholder="Describe tu idea aquí..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-light fw-bold w-100 py-2" style="color: #157347;">ENVIAR A RECTORÍA</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="sticky-top" style="top: 100px;">
+                    <div class="bg-white p-4 rounded-4 shadow-sm mb-4 border-start border-4" style="border-color: #157347 !important;">
+                        <h6 class="fw-bold mb-3" style="color: #157347;">¿CÓMO PARTICIPAR?</h6>
+                        <ul class="list-unstyled small mb-0">
+                            <li class="mb-3 d-flex align-items-start">
+                                <span class="badge rounded-pill bg-success me-2">1</span>
+                                <span>Accede con tu usuario institucional.</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-start">
+                                <span class="badge rounded-pill bg-success me-2">2</span>
+                                <span>Completa el formulario de propuesta.</span>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <span class="badge rounded-pill bg-success me-2">3</span>
+                                <span>Recibe retroalimentación de rectoría.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 rounded-4 shadow-sm text-white text-center" style="background-color: #b32e2e;">
+                        <h2 class="fw-bold mb-0">15</h2>
+                        <p class="small mb-0 text-uppercase" style="font-size: 0.7rem;">Encuentros Realizados</p>
+                        <hr class="my-2 opacity-25">
+                        <p class="small mb-0">Carreras Participantes: Todas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Estilo para los inputs transparentes (Glassmorphism) */
+    .glass-input {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        color: white !important;
+        transition: all 0.3s ease;
+    }
+
+    .glass-input:focus {
+        background: rgba(255, 255, 255, 0.2) !important;
+        box-shadow: 0 0 15px rgba(255,255,255,0.1) !important;
+    }
+
+    .glass-input::placeholder {
+        color: rgba(255,255,255,0.5);
+    }
+
+    /* Animación de elevación para el formulario */
+    .animate-hover {
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .animate-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(21, 115, 71, 0.3) !important;
+    }
+
+    /* Efecto para los menús laterales */
+    .list-group-item-action:hover {
+        background-color: #f8f9fa;
+        color: #157347;
+        padding-left: 1.5rem !important;
+        transition: all 0.3s ease;
+    }
+</style>
+
+<div class="container-fluid py-5" style="
+    background-image: url('img/itla\,foto.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+">
+    <div style="
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+    "></div>
+
+    <div class="container text-center text-white" style="z-index: 2; position: relative;">
+        <h2 class="display-5 fw-bold mb-4">
+            ¡Tu futuro profesional empieza aquí!
+        </h2>
+        
+        <div class="mt-4">
+            <a href="#" class="btn rounded-pill px-5 py-3 fw-bold text-uppercase shadow-lg" style="
+                background-color: #28a745; 
+                color: white;
+                border: 2px solid white;
+                font-size: 1rem;
+            ">
+                INSCRÍBETE
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="container-fluid py-5 text-white" style="background-color: #157347;">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4 mb-4 mb-md-0 border-end border-light border-opacity-25">
+                <div class="mb-4">
+                    <img src="img/logo-itla-blanco.webp" alt="Logo ITLA" class="img-fluid" style="max-height: 80px;">
+                </div>
+                <p class="small" style="text-align: justify; padding-right: 30px;">
+                    El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                </p>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0 px-md-4">
+                <h6 class="fw-bold text-uppercase mb-4">Contáctanos</h6>
+                <ul class="list-unstyled small">
+                    <li class="mb-2">Tel: (809)-738-4852</li>
+                    <li class="mb-2">Tel: (809)-793-2557</li>
+                    <li class="mb-2">Email: info@itla.edu.do</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6 class="fw-bold text-uppercase mb-4">Búscanos</h6>
+                <p class="small">
+                    Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.
+                </p>
+            </div>
+
+            <div class="col-md-2">
+                <h6 class="fw-bold text-uppercase mb-4">Infórmate</h6>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="row mt-5 pt-3 border-top border-light border-opacity-10">
+        
+        </div>
+    </div>
+</footer>
+
+<div class="container-fluid bg-white py-5 border-top">
+    <div class="container">
+        <div class="row justify-content-center align-items-center g-4">
+            
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 1.png" class="img-fluid" alt="Nortic A2" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 2.png" class="img-fluid" alt="Nortic A3" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 3.png" class="img-fluid" alt="Nortic A4" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 4.png" class="img-fluid" alt="Nortic E1" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 5.png" class="img-fluid" alt="Nortic A5" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 6.png" class="img-fluid" alt="Nortic A6" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-white py-4">
+    
+
+        <div class="row align-items-center border-top pt-3" style="border-color: rgba(21, 115, 71, 0.2) !important;">
+            
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0 fw-bold" style="color: #157347;">
+                    © 2026 Todos los Derechos Reservados.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <span class="fw-bold me-3" style="color: #157347; font-size: 0.9rem;">SÍGUENOS</span>
+                
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-facebook fs-5"></i>
+                </a>
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-youtube fs-5"></i>
+                </a>
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-twitter-x fs-5"></i>
+                </a>
+                <a href="#" class="text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-instagram fs-5"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>inicio-itla</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="shadow-sm">
+    
+    <div class="container-fluid py-2" style="background-color: #157347;">
+        <div class="container d-flex align-items-center justify-content-between">
+            
+            <a href="#" class="navbar-brand">
+                <img src="img/logo-itla-blanco.webp" alt="ITLA" style="height: 50px; width: auto;">
+            </a>
+
+            <div class="d-flex align-items-center">
+                <form class="d-flex align-items-center position-relative me-3" style="max-width: 250px;">
+                    <input class="form-control rounded-pill pe-5" type="search" placeholder="¿Qué quieres buscar?" style="font-size: 0.85rem; height: 35px; border: none;">
+                    <button class="btn btn-danger rounded-circle position-absolute end-0 me-1 d-flex align-items-center justify-content-center" type="submit" style="width: 28px; height: 28px; padding: 0;">
+                        <i class="bi bi-search" style="font-size: 0.75rem;"></i>
+                    </button>
+                </form>
+                
+                <a href="#" class="text-white mx-2"><i class="bi bi-grid-3x3-gap-fill fs-5"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-globe fs-5"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+                <ul class="navbar-nav mx-auto fw-bold" style="font-size: 1.rem;">
+                <li class="nav-item">
+                    <a class="nav-link px-3 active" href="#" style="color: #157347;">Inicio</a>
+                </li>
+                
+         <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarSobreITLA" role="button" data-bs-toggle="dropdown">
+        Sobre ITLA
+    </a>
+    <ul class="dropdown-menu shadow">
+        <li><a class="dropdown-item" href="quienes-somos.html">Quienes somos</a></li>
+        <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Organigrama</a></li>
+        <li><a class="dropdown-item" href="#">Marco Legal</a></li>
+    </ul>
+</li>
+    <style>
+    
+    .nav-link:hover {
+        color: #157347 !important; 
+        transition: color 0.3s ease;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+        color: #157347 !important; 
+        padding-left: 1.5rem; 
+        transition: all 0.3s ease;
+    }
+</style>
+</li>
+
+                <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarOferta" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #157347;">
+        Oferta Académica
+    </a>
+    <ul class="dropdown-menu shadow-lg border-0" aria-labelledby="navbarOferta">
+        <li>
+            <a class="dropdown-item fw-bold" href="tecnico-superior.html" style="color: #2eb32e;">
+                Técnico Superior
+            </a>
+        </li>
+        <li><a class="dropdown-item text-secondary" href="#">Educación Continua</a></li>
+    </ul>
+</li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: #444;">Admisiones</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: #444;">Becas</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3" href="#" style="color: #444;">Estudiantes</a>
+                </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-3" href="#" style="color: #444;">Docentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="#" style="color: #444;"> Alumni</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: #444;">Transparencia</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: #444;">Actualidad</a>
+                </li>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: #444;">Contactos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<style>
+    
+    .nav-link {
+        color: #444!important; /* Azul para los links como en la foto */
+        transition: 0.2s;
+    }
+    .nav-link:hover {
+        color: #157347 !important; 
+    }
+    .nav-link.active {
+        color: #157347 !important; 
+    }
+</style>
+
+<div id="itlaCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#itlaCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#itlaCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#itlaCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active" style="height: 450px;">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80" 
+                 class="d-block w-100 h-100" style="object-fit: cover; filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block text-start mb-5" style="left: 10%;">
+                <span class="badge bg-danger mb-2">NUEVO</span>
+                <h2 class="fw-bold">TECNÓLOGO EN CIBERSEGURIDAD</h2>
+                <p>MODALIDAD SEMIPRESENCIAL - SANTO DOMINGO NORTE</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4">MÁS INFORMACIÓN</a>
+            </div>
+        </div>
+
+        <div class="carousel-item" style="height: 450px;">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1350&q=80" 
+                 class="d-block w-100 h-100" style="object-fit: cover; filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block text-start mb-5" style="left: 10%;">
+                <h2 class="fw-bold">CENTRO DE CERTIFICACIONES <br>INTERNACIONALES (CCI)</h2>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-danger rounded-pill px-4 me-2">CERTÍFICATE</a>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4">MÁS INFORMACIÓN</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item" style="height: 450px;">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80" 
+                 class="d-block w-100 h-100" style="object-fit: cover; filter: brightness(0.5);">
+            <div class="carousel-caption d-none d-md-block text-end mb-5" style="right: 10%;">
+                <h2 class="fw-bold">ITLA Academy</h2>
+                <p>La nueva plataforma de formación continua del ITLA</p>
+                <a href="#" class="btn btn-light text-primary rounded-pill px-4 fw-bold">CONOCE MÁS AQUÍ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#itlaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#itlaCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+<div class="container my-5">
+  <div class="row g-0">
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-globe fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">ITLA Internacional</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-laptop fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Plataforma Virtual</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-translate fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Escuela de Idiomas</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-patch-check fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">ITLA Test Center</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-person-walking fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Deportes y Cultura</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-0">
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-signpost-split fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Programa de Extensión</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-person-bounding-box fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Egresados</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-geo-alt fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Recintos y Extensiones</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-mortarboard fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">ITLACADEMY</p>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-box fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Protoscanner 3D</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-0 justify-content-center">
+    <div class="col-md-2">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-send fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Emprendimiento e Innovación</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="btn btn-outline-success h-100 w-100 border border-top-0 border-start-0 text-center py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm">
+        <i class="bi bi-person-vcard fs-1 mb-3"></i>
+        <p class="small fw-bold text-uppercase px-2 m-0">Graduación</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid py-5" style="
+    background-image: url('img/itla\,foto.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+">
+    <div style="
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+    "></div>
+
+    <div class="container text-center text-white" style="z-index: 2; position: relative;">
+        <h2 class="display-5 fw-bold mb-4">
+            ¡Tu futuro profesional empieza aquí!
+        </h2>
+        
+        <div class="mt-4">
+            <a href="#" class="btn rounded-pill px-5 py-3 fw-bold text-uppercase shadow-lg" style="
+                background-color: #28a745; 
+                color: white;
+                border: 2px solid white;
+                font-size: 1rem;
+            ">
+                INSCRÍBETE
+            </a>
+        </div>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+<div class="container my-5">
+    <div class="mb-4">
+        <h4 class="fw-bold text-primary mb-1" style="font-size: 1.2rem;">Nuevas Carreras</h4>
+        <div style="width: 80px; height: 3px; background-color: #72dc35;"></div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card border-0 text-white shadow-sm overflow-hidden h-100 position-relative group">
+                <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=2070" class="card-img" alt="Videojuegos" style="height: 300px; object-fit: cover; filter: brightness(0.7);">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center text-center p-4">
+                    <div class="border border-white p-3 w-100 h-100 d-flex align-items-center justify-content-center">
+                        <h5 class="card-title fw-bold m-0">Simulaciones interactivas y videojuegos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+    <div class="card border-0 text-white shadow-sm overflow-hidden h-100 position-relative" style="background-color: #333;">
+        <img src="https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?q=80&w=2070&auto=format&fit=crop" 
+             class="card-img" 
+             alt="Telecomunicaciones" 
+             style="height: 300px; object-fit: cover; filter: brightness(0.6);">
+        
+        <div class="card-img-overlay d-flex align-items-center justify-content-center text-center p-4">
+            <div class="border border-white p-3 w-100 h-100 d-flex align-items-center justify-content-center flex-column">
+                <h5 class="card-title fw-bold m-0">Telecomunicaciones</h5>
+                <small class="mt-2 fw-light">Ver Detalle</small>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+            <div class="card border-0 text-white shadow-sm overflow-hidden h-100 position-relative">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070" class="card-img" alt="IA" style="height: 300px; object-fit: cover; filter: brightness(0.7);">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center text-center p-4">
+                    <div class="border border-white p-3 w-100 h-100 d-flex align-items-center justify-content-center">
+                        <h5 class="card-title fw-bold m-0">Inteligencia Artificial</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="#" class="btn btn-outline-primary rounded-pill px-5 fw-bold text-uppercase" style="border-width: 2px;">
+            + Carreras
+        </a>
+    </div>
+</div>
+
+<div class="container my-5 px-4 px-md-0">
+    
+    <div class="mb-5">
+        <div class="d-flex align-items-center">
+            <i class="bi bi-newspaper me-3 fs-3 text-secondary"></i>
+            <h4 class="fw-bold mb-0" style="font-size: 1.3rem; color: #157347;">Últimas Novedades</h4>
+        </div>
+        <div class="mt-2" style="width: 80px; height: 3px; background-color: #28a745;"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+        
+        <div class="col-12 col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden d-flex flex-column">
+                <img src="img/Twitch-llega-al-ITLA.webp" class="card-img-top" alt="Twitch Workshop" style="height: 220px; object-fit: cover;">
+                <div class="card-body p-4 d-flex flex-column">
+                    <p class="text-end text-muted small mb-3">abril 20, 2026</p>
+                    <h5 class="card-title fw-bold mb-3" style="font-size: 1.15rem; line-height: 1.4; color: #157347;">
+                        Twitch llega al ITLA con workshop exclusivo para impulsar el talento digital joven
+                    </h5>
+                    <p class="card-text text-secondary small mb-4" style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6;">
+                        Santo Domingo. – La plataforma global Twitch realizó un workshop exclusivo en el ITLA...
+                    </p>
+                    <div class="mt-auto">
+                        <a href="#" class="btn btn-outline-success rounded-pill w-100 fw-bold shadow-sm" style="border-color: #28a745; color: #28a745;">LEER MÁS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden d-flex flex-column">
+                <img src="img/Recorrido-MIVED.webp" class="card-img-top" alt="Recorrido MIVED" style="height: 220px; object-fit: cover;">
+                <div class="card-body p-4 d-flex flex-column">
+                    <p class="text-end text-muted small mb-3">abril 17, 2026</p>
+                    <h5 class="card-title fw-bold mb-3" style="font-size: 1.15rem; line-height: 1.4; color: #157347;">
+                        ITLA y MIVED avanzan en proyectos de expansión y fortalecimiento institucional
+                    </h5>
+                    <p class="card-text text-secondary small mb-4" style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6;">
+                        Santo Domingo. – El rector Jimmy Rosario recibió una delegación del MIVED...
+                    </p>
+                    <div class="mt-auto">
+                        <a href="#" class="btn btn-outline-success rounded-pill w-100 fw-bold shadow-sm" style="border-color: #28a745; color: #28a745;">LEER MÁS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden d-flex flex-column">
+                <img src="img/participacion-en-competencia-de-la-NASA.webp" class="card-img-top" alt="Competencia NASA" style="height: 220px; object-fit: cover;">
+                <div class="card-body p-4 d-flex flex-column">
+                    <p class="text-end text-muted small mb-3">abril 15, 2026</p>
+                    <h5 class="card-title fw-bold mb-3" style="font-size: 1.15rem; line-height: 1.4; color: #157347;">
+                        Estudiantes del ITLA son reconocidos tras histórica participación en competencia de la NASA
+                    </h5>
+                    <p class="card-text text-secondary small mb-4" style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6;">
+                        Santo Domingo.– El ITLA celebró un acto de reconocimiento en honor a los estudiantes...
+                    </p>
+                    <div class="mt-auto">
+                        <a href="#" class="btn btn-outline-success rounded-pill w-100 fw-bold shadow-sm" style="border-color: #28a745; color: #28a745;">LEER MÁS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="text-center mt-5 mb-5">
+        <a href="#" class="btn btn-outline-success rounded-pill px-5 py-2 fw-bold text-uppercase shadow-sm" style="font-size: 0.9rem; border-color: #28a745; color: #28a745;">
+            MÁS NOVEDADES
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid py-5" style="background: linear-gradient(90deg, #28a745 0%, #ffffff 100%); min-height: 450px;">
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            
+            <div class="col-lg-6 text-start">
+                <h1 class="display-4 fw-bold text-white mb-4" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">
+                    Carta Compromiso al Ciudadano
+                </h1>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-secondary rounded-pill px-5 py-3 fw-bold text-uppercase shadow" 
+                       style="background-color: #6c757d; border: none; min-width: 250px;">
+                        VER CARTA
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                <img src="img/Carta-miniatura.webp" alt="Carta Compromiso" class="img-fluid shadow-lg rounded-3" style="max-height: 400px;">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid py-5 text-white" style="background-color: #157347;">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4 mb-4 mb-md-0 border-end border-light border-opacity-25">
+                <div class="mb-4">
+                    <img src="img/logo-itla-blanco.webp" alt="Logo ITLA" class="img-fluid" style="max-height: 80px;">
+                </div>
+                <p class="small" style="text-align: justify; padding-right: 30px;">
+                    El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                </p>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0 px-md-4">
+                <h6 class="fw-bold text-uppercase mb-4">Contáctanos</h6>
+                <ul class="list-unstyled small">
+                    <li class="mb-2">Tel: (809)-738-4852</li>
+                    <li class="mb-2">Tel: (809)-793-2557</li>
+                    <li class="mb-2">Email: info@itla.edu.do</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6 class="fw-bold text-uppercase mb-4">Búscanos</h6>
+                <p class="small">
+                    Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.
+                </p>
+            </div>
+
+            <div class="col-md-2">
+                <h6 class="fw-bold text-uppercase mb-4">Infórmate</h6>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="row mt-5 pt-3 border-top border-light border-opacity-10">
+        
+        </div>
+    </div>
+</footer>
+<div class="container-fluid bg-white py-5 border-top">
+    <div class="container">
+        <div class="row justify-content-center align-items-center g-4">
+            
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 1.png" class="img-fluid" alt="Nortic A2" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 2.png" class="img-fluid" alt="Nortic A3" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 3.png" class="img-fluid" alt="Nortic A4" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 4.png" class="img-fluid" alt="Nortic E1" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 5.png" class="img-fluid" alt="Nortic A5" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2 text-center">
+                <a href="#">
+                    <img src="img/loguito 6.png" class="img-fluid" alt="Nortic A6" style="max-height: 130px; width: auto;">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-white py-4">
+    
+
+        <div class="row align-items-center border-top pt-3" style="border-color: rgba(21, 115, 71, 0.2) !important;">
+            
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0 fw-bold" style="color: #157347;">
+                    © 2026 Todos los Derechos Reservados.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <span class="fw-bold me-3" style="color: #157347; font-size: 0.9rem;">SÍGUENOS</span>
+                
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-facebook fs-5"></i>
+                </a>
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-youtube fs-5"></i>
+                </a>
+                <a href="#" class="me-3 text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-twitter-x fs-5"></i>
+                </a>
+                <a href="#" class="text-decoration-none" style="color: #157347;">
+                    <i class="bi bi-instagram fs-5"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
